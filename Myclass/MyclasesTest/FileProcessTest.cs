@@ -1,3 +1,4 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Myclass;
 
@@ -35,13 +36,30 @@ namespace MyclasesTest
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
         public void FileNameIsNull_usingAttribute()
         {
+            FileProcess fp = new FileProcess();
+
+            fp.FileExists("");
 
         }
+
         [TestMethod]
         public void FileNameIsEmpty_UsingTryCatch()
         {
+            FileProcess fp = new FileProcess();
+            try
+            {
+                fp.FileExists("");
+            }
+            catch (ArgumentException)
+            {
+                //test was a success
+                return;
+            }
+            
+            Assert.Fail("Call to file failed as file exists did not throw an exception");
 
         }
     }

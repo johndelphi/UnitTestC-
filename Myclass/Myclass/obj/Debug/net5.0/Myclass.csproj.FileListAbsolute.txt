@@ -1,0 +1,12 @@
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\bin\Debug\net5.0\Myclass.deps.json
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\bin\Debug\net5.0\Myclass.dll
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\bin\Debug\net5.0\ref\Myclass.dll
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\bin\Debug\net5.0\Myclass.pdb
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\obj\Debug\net5.0\Myclass.csproj.AssemblyReference.cache
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\obj\Debug\net5.0\Myclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\obj\Debug\net5.0\Myclass.AssemblyInfoInputs.cache
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\obj\Debug\net5.0\Myclass.AssemblyInfo.cs
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\obj\Debug\net5.0\Myclass.csproj.CoreCompileInputs.cache
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\obj\Debug\net5.0\Myclass.dll
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\obj\Debug\net5.0\ref\Myclass.dll
+C:\Users\jmichael\Desktop\plurulalsight\Execeptions c#\UnitTestC#\Myclass\Myclass\obj\Debug\net5.0\Myclass.pdb

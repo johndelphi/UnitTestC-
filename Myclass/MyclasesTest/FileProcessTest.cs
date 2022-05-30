@@ -23,7 +23,15 @@ namespace MyclasesTest
         [TestMethod]
         public void FileNameDoesNotExist()
         {
+            //Arrange
+            FileProcess fp = new FileProcess();
+            bool fromCall;
 
+            //act
+            fromCall = fp.FileExists(@"C:\Users\jmichael\Downloads\woking.txt");
+
+            //assert
+            Assert.IsFalse(fromCall);
         }
 
         [TestMethod]

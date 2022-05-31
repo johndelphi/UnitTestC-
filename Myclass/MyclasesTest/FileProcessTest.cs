@@ -4,9 +4,14 @@ using Myclass;
 
 namespace MyclasesTest
 {
+    
     [TestClass]
     public class FileProcessTest
     {
+        private const string  BadPath = @"C:\Users\jmichael\Downloads\woking.txt";
+        private const string GoodPath = @"C:\Users\jmichael\Downloads\working.txt";
+        public TestContext TestContext{get; set;}
+
         [TestMethod]
         public void FileNameDoesExist()
         {
@@ -15,8 +20,9 @@ namespace MyclasesTest
             bool fromCall;
 
             //act
-            fromCall = fp.FileExists(@"C:\Users\jmichael\Downloads\working.txt");
+            fromCall = fp.FileExists(GoodPath);
 
+            TestContext.WriteLine("checking if file exists at"+GoodPath);
             //assert
             Assert.IsTrue(fromCall);
         }
@@ -29,8 +35,8 @@ namespace MyclasesTest
             bool fromCall;
 
             //act
-            fromCall = fp.FileExists(@"C:\Users\jmichael\Downloads\woking.txt");
-
+            fromCall = fp.FileExists(BadPath);
+            
             //assert
             Assert.IsFalse(fromCall);
         }
